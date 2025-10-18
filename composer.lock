@@ -4,8 +4,64 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "606d7924846f0655e9d87fa4cf37a234",
-    "packages": [],
+    "content-hash": "655c4d9bda425a0653888e2b09eb2855",
+    "packages": [
+        {
+            "name": "ext/exception",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-exts/exception.git",
+                "reference": "e5648474ca5eb8a5ee5cb219fdef27f0a9c0e027"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-exts/exception/zipball/e5648474ca5eb8a5ee5cb219fdef27f0a9c0e027",
+                "reference": "e5648474ca5eb8a5ee5cb219fdef27f0a9c0e027",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.6",
+                "phpstan/phpstan": "^1.10.18",
+                "phpunit/phpunit": "^10.2.4",
+                "symfony/var-dumper": "^6.3.5",
+                "vimeo/psalm": "^5.10.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "Zeus\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cloudflying",
+                    "email": "oss@live.hk",
+                    "homepage": "https://github.com/imxieke",
+                    "role": "Developer"
+                }
+            ],
+            "description": "exception",
+            "homepage": "https://github.com/php-exts/exception",
+            "keywords": [
+                "exception",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/php-exts/exception/issues",
+                "source": "https://github.com/php-exts/exception/tree/0.0.4"
+            },
+            "time": "2025-10-18T02:47:34+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "amphp/amp",
