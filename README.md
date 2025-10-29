@@ -11,7 +11,27 @@
 - Facade
 
 ## Usage
--
+```php
+<?php
+
+namespace Namespace\Facade;
+
+use Zeus\Facade;
+
+class Foo extends Facade
+{
+  public static function bind()
+  {
+    return ClassName:class;
+  }
+}
+
+
+use Namespace\Facade\Foo;
+
+Foo::method();
+
+```
 
 ## Documentation
 -
