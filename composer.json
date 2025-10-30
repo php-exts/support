@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=8.2",
-    "ext/exception": "^0.0.4"
+    "ext/exception": "^1.0.2"
   },
   "require-dev": {
     "mockery/mockery": "^1.6",
